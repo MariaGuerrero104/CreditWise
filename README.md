@@ -2,36 +2,36 @@
 
 proyecto/
 │
-├── backend/                 # Backend con FastAPI (Python)
-│   ├── app/                  # Código principal
-│   │   ├── api/              # Rutas/Endpoints
-│   │   ├── core/             # Configuraciones y utilidades
-│   │   ├── models/           # Modelos de datos (SQLAlchemy)
-│   │   ├── schemas/          # Esquemas Pydantic
-│   │   ├── services/         # Lógica de negocio
-│   │   ├── db.py             # Conexión a MySQL
-│   │   ├── main.py           # Punto de entrada FastAPI
-│   ├── tests/                # Pruebas unitarias
-│   ├── requirements.txt      # Dependencias Python
+├── backend/                
+│   ├── app/                  
+│   │   ├── api/             
+│   │   ├── core/             
+│   │   ├── models/          
+│   │   ├── schemas/          
+│   │   ├── services/      
+│   │   ├── db.py            
+│   │   ├── main.py          
+│   ├── tests/                
+│   ├── requirements.txt      
 │   └── README.md
 │
-├── frontend/                 # Frontend con React
-│   ├── public/               # Archivos estáticos
-│   ├── src/                  # Código fuente
-│   │   ├── components/       # Componentes reutilizables
-│   │   ├── pages/            # Páginas
-│   │   ├── services/         # Llamadas a la API
+├── frontend/                
+│   ├── public/             
+│   ├── src/                 
+│   │   ├── components/       
+│   │   ├── pages/           
+│   │   ├── services/         
 │   │   ├── App.js
 │   │   └── index.js
-│   ├── package.json          # Dependencias JS
+│   ├── package.json          
 │   └── README.md
 │
-├── db/                       # Scripts y migraciones de MySQL
-│   ├── migrations/           # Archivos de migración
-│   ├── init.sql              # Script inicial de base de datos
+├── db/                       
+│   ├── migrations/          
+│   ├── init.sql              
 │   └── README.md
 │
-├── docs/                     # Documentación del proyecto
+├── docs/                     
 │   ├── arquitectura.md
 │   ├── api.md
 │   └── README.md
